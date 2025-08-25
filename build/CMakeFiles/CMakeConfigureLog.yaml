@@ -1,0 +1,1127 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-g++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-hcckge"
+      binary: "C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-hcckge"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-hcckge'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Projects/Robotics/PROS/toolchain/usr/bin/make.exe -f Makefile cmTC_85aa3/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_85aa3.dir/build.make CMakeFiles/cmTC_85aa3.dir/build
+        make[1]: Entering directory '/cygdrive/c/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-hcckge'
+        Building C object CMakeFiles/cmTC_85aa3.dir/CMakeCCompilerABI.c.obj
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe   -v -o CMakeFiles/cmTC_85aa3.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=C:\\Projects\\Robotics\\PROS\\toolchain\\usr\\bin\\arm-none-eabi-gcc.exe
+        Target: arm-none-eabi
+        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --enable-mingw-wildcard --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_85aa3.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_85aa3.dir/'
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1.exe -quiet -v -iprefix C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_85aa3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\\Users\\mayan\\AppData\\Local\\Temp\\ccw27OTv.s
+        GNU C17 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) version 13.3.1 20240614 (arm-none-eabi)
+        	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Projects/Robotics/PROS/toolchain/usr/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include"
+        ignoring nonexistent directory "C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/13.3.1/../../../../include"
+        ignoring duplicate directory "C:/Projects/Robotics/PROS/toolchain/usr/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include-fixed"
+        ignoring duplicate directory "C:/Projects/Robotics/PROS/toolchain/usr/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/include
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: d51ba7f24bad5b83998bb941572c85c4
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_85aa3.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_85aa3.dir/'
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_85aa3.dir/CMakeCCompilerABI.c.obj C:\\Users\\mayan\\AppData\\Local\\Temp\\ccw27OTv.s
+        GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 2.42.0.20240614
+        COMPILER_PATH=C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_85aa3.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_85aa3.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_85aa3.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_85aa3.dir/objects.a
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-ar.exe qc CMakeFiles/cmTC_85aa3.dir/objects.a @CMakeFiles/cmTC_85aa3.dir/objects1.rsp
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe  -v -Wl,--whole-archive CMakeFiles/cmTC_85aa3.dir/objects.a -Wl,--no-whole-archive -o cmTC_85aa3.exe -Wl,--out-implib,libcmTC_85aa3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Using built-in specs.
+        COLLECT_GCC=C:\\Projects\\Robotics\\PROS\\toolchain\\usr\\bin\\arm-none-eabi-gcc.exe
+        COLLECT_LTO_WRAPPER=C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper.exe
+        Target: arm-none-eabi
+        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --enable-mingw-wildcard --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 
+        COMPILER_PATH=C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_85aa3.exe' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'cmTC_85aa3.'
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2.exe -plugin C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.dll -plugin-opt=C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\mayan\\AppData\\Local\\Temp\\ccMKwBjN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi -X -o cmTC_85aa3.exe C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/crti.o C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/crtbegin.o C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/crt0.o -LC:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1 -LC:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc -LC:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib -LC:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi/lib --whole-archive CMakeFiles/cmTC_85aa3.dir/objects.a --no-whole-archive --out-implib libcmTC_85aa3.dll.a --major-image-version 0 --minor-image-version 0 --start-group -lgcc -lc --end-group C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/crtend.o C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/crtn.o
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+        collect2.exe: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_85aa3.dir/build.make:101: cmTC_85aa3.exe] Error 1
+        make[1]: Leaving directory '/cygdrive/c/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-hcckge'
+        make: *** [Makefile:127: cmTC_85aa3/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe"
+    directories:
+      source: "C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-9o50kn"
+      binary: "C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-9o50kn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-9o50kn'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Projects/Robotics/PROS/toolchain/usr/bin/make.exe -f Makefile cmTC_35590/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_35590.dir/build.make CMakeFiles/cmTC_35590.dir/build
+        make[1]: Entering directory '/cygdrive/c/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-9o50kn'
+        Building C object CMakeFiles/cmTC_35590.dir/testCCompiler.c.obj
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe    -o CMakeFiles/cmTC_35590.dir/testCCompiler.c.obj -c C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-9o50kn/testCCompiler.c
+        Linking C executable cmTC_35590.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_35590.dir/objects.a
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-ar.exe qc CMakeFiles/cmTC_35590.dir/objects.a @CMakeFiles/cmTC_35590.dir/objects1.rsp
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe -Wl,--whole-archive CMakeFiles/cmTC_35590.dir/objects.a -Wl,--no-whole-archive -o cmTC_35590.exe -Wl,--out-implib,libcmTC_35590.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_35590.dir/linkLibs.rsp
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+        collect2.exe: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_35590.dir/build.make:102: cmTC_35590.exe] Error 1
+        make[1]: Leaving directory '/cygdrive/c/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-9o50kn'
+        make: *** [Makefile:127: cmTC_35590/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-g++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-x36nov"
+      binary: "C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-x36nov"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-x36nov'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Projects/Robotics/PROS/toolchain/usr/bin/make.exe -f Makefile cmTC_3f12f/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_3f12f.dir/build.make CMakeFiles/cmTC_3f12f.dir/build
+        make[1]: Entering directory '/cygdrive/c/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-x36nov'
+        Building C object CMakeFiles/cmTC_3f12f.dir/CMakeCCompilerABI.c.obj
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe   -v -o CMakeFiles/cmTC_3f12f.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=C:\\Projects\\Robotics\\PROS\\toolchain\\usr\\bin\\arm-none-eabi-gcc.exe
+        Target: arm-none-eabi
+        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --enable-mingw-wildcard --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3f12f.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_3f12f.dir/'
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1.exe -quiet -v -iprefix C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3f12f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\\Users\\mayan\\AppData\\Local\\Temp\\ccEz41Ld.s
+        GNU C17 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) version 13.3.1 20240614 (arm-none-eabi)
+        	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Projects/Robotics/PROS/toolchain/usr/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include"
+        ignoring nonexistent directory "C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/13.3.1/../../../../include"
+        ignoring duplicate directory "C:/Projects/Robotics/PROS/toolchain/usr/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include-fixed"
+        ignoring duplicate directory "C:/Projects/Robotics/PROS/toolchain/usr/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/include
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: d51ba7f24bad5b83998bb941572c85c4
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3f12f.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_3f12f.dir/'
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_3f12f.dir/CMakeCCompilerABI.c.obj C:\\Users\\mayan\\AppData\\Local\\Temp\\ccEz41Ld.s
+        GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 2.42.0.20240614
+        COMPILER_PATH=C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3f12f.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_3f12f.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_3f12f.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_3f12f.dir/objects.a
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-ar.exe qc CMakeFiles/cmTC_3f12f.dir/objects.a @CMakeFiles/cmTC_3f12f.dir/objects1.rsp
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe  -v -Wl,--whole-archive CMakeFiles/cmTC_3f12f.dir/objects.a -Wl,--no-whole-archive -o cmTC_3f12f.exe -Wl,--out-implib,libcmTC_3f12f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Using built-in specs.
+        COLLECT_GCC=C:\\Projects\\Robotics\\PROS\\toolchain\\usr\\bin\\arm-none-eabi-gcc.exe
+        COLLECT_LTO_WRAPPER=C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper.exe
+        Target: arm-none-eabi
+        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --enable-mingw-wildcard --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 
+        COMPILER_PATH=C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3f12f.exe' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'cmTC_3f12f.'
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2.exe -plugin C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.dll -plugin-opt=C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\mayan\\AppData\\Local\\Temp\\ccofWfBn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi -X -o cmTC_3f12f.exe C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/crti.o C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/crtbegin.o C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/crt0.o -LC:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1 -LC:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc -LC:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib -LC:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi/lib --whole-archive CMakeFiles/cmTC_3f12f.dir/objects.a --no-whole-archive --out-implib libcmTC_3f12f.dll.a --major-image-version 0 --minor-image-version 0 --start-group -lgcc -lc --end-group C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/crtend.o C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/crtn.o
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+        collect2.exe: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_3f12f.dir/build.make:101: cmTC_3f12f.exe] Error 1
+        make[1]: Leaving directory '/cygdrive/c/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-x36nov'
+        make: *** [Makefile:127: cmTC_3f12f/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe"
+    directories:
+      source: "C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-kwnoq1"
+      binary: "C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-kwnoq1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-kwnoq1'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Projects/Robotics/PROS/toolchain/usr/bin/make.exe -f Makefile cmTC_db805/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_db805.dir/build.make CMakeFiles/cmTC_db805.dir/build
+        make[1]: Entering directory '/cygdrive/c/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-kwnoq1'
+        Building C object CMakeFiles/cmTC_db805.dir/testCCompiler.c.obj
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe    -o CMakeFiles/cmTC_db805.dir/testCCompiler.c.obj -c C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-kwnoq1/testCCompiler.c
+        Linking C executable cmTC_db805.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_db805.dir/objects.a
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-ar.exe qc CMakeFiles/cmTC_db805.dir/objects.a @CMakeFiles/cmTC_db805.dir/objects1.rsp
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe -Wl,--whole-archive CMakeFiles/cmTC_db805.dir/objects.a -Wl,--no-whole-archive -o cmTC_db805.exe -Wl,--out-implib,libcmTC_db805.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_db805.dir/linkLibs.rsp
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+        collect2.exe: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_db805.dir/build.make:102: cmTC_db805.exe] Error 1
+        make[1]: Leaving directory '/cygdrive/c/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-kwnoq1'
+        make: *** [Makefile:127: cmTC_db805/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-g++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-dsrjri"
+      binary: "C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-dsrjri"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-dsrjri'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Projects/Robotics/PROS/toolchain/usr/bin/make.exe -f Makefile cmTC_52ad6/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_52ad6.dir/build.make CMakeFiles/cmTC_52ad6.dir/build
+        make[1]: Entering directory '/cygdrive/c/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-dsrjri'
+        Building C object CMakeFiles/cmTC_52ad6.dir/CMakeCCompilerABI.c.obj
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe   -v -o CMakeFiles/cmTC_52ad6.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=C:\\Projects\\Robotics\\PROS\\toolchain\\usr\\bin\\arm-none-eabi-gcc.exe
+        Target: arm-none-eabi
+        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --enable-mingw-wildcard --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52ad6.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_52ad6.dir/'
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1.exe -quiet -v -iprefix C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_52ad6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\\Users\\mayan\\AppData\\Local\\Temp\\ccOG5llF.s
+        GNU C17 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) version 13.3.1 20240614 (arm-none-eabi)
+        	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Projects/Robotics/PROS/toolchain/usr/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include"
+        ignoring nonexistent directory "C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/13.3.1/../../../../include"
+        ignoring duplicate directory "C:/Projects/Robotics/PROS/toolchain/usr/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include-fixed"
+        ignoring duplicate directory "C:/Projects/Robotics/PROS/toolchain/usr/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/include
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: d51ba7f24bad5b83998bb941572c85c4
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52ad6.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_52ad6.dir/'
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_52ad6.dir/CMakeCCompilerABI.c.obj C:\\Users\\mayan\\AppData\\Local\\Temp\\ccOG5llF.s
+        GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 2.42.0.20240614
+        COMPILER_PATH=C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52ad6.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_52ad6.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_52ad6.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_52ad6.dir/objects.a
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-ar.exe qc CMakeFiles/cmTC_52ad6.dir/objects.a @CMakeFiles/cmTC_52ad6.dir/objects1.rsp
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe  -v -Wl,--whole-archive CMakeFiles/cmTC_52ad6.dir/objects.a -Wl,--no-whole-archive -o cmTC_52ad6.exe -Wl,--out-implib,libcmTC_52ad6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Using built-in specs.
+        COLLECT_GCC=C:\\Projects\\Robotics\\PROS\\toolchain\\usr\\bin\\arm-none-eabi-gcc.exe
+        COLLECT_LTO_WRAPPER=C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper.exe
+        Target: arm-none-eabi
+        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --enable-mingw-wildcard --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 
+        COMPILER_PATH=C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_52ad6.exe' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'cmTC_52ad6.'
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2.exe -plugin C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.dll -plugin-opt=C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\mayan\\AppData\\Local\\Temp\\ccaeFXHQ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi -X -o cmTC_52ad6.exe C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/crti.o C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/crtbegin.o C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/crt0.o -LC:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1 -LC:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc -LC:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib -LC:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi/lib --whole-archive CMakeFiles/cmTC_52ad6.dir/objects.a --no-whole-archive --out-implib libcmTC_52ad6.dll.a --major-image-version 0 --minor-image-version 0 --start-group -lgcc -lc --end-group C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/crtend.o C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/crtn.o
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+        collect2.exe: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_52ad6.dir/build.make:101: cmTC_52ad6.exe] Error 1
+        make[1]: Leaving directory '/cygdrive/c/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-dsrjri'
+        make: *** [Makefile:127: cmTC_52ad6/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe"
+    directories:
+      source: "C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-9riqzb"
+      binary: "C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-9riqzb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-9riqzb'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Projects/Robotics/PROS/toolchain/usr/bin/make.exe -f Makefile cmTC_2a34d/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_2a34d.dir/build.make CMakeFiles/cmTC_2a34d.dir/build
+        make[1]: Entering directory '/cygdrive/c/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-9riqzb'
+        Building C object CMakeFiles/cmTC_2a34d.dir/testCCompiler.c.obj
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe    -o CMakeFiles/cmTC_2a34d.dir/testCCompiler.c.obj -c C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-9riqzb/testCCompiler.c
+        Linking C executable cmTC_2a34d.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_2a34d.dir/objects.a
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-ar.exe qc CMakeFiles/cmTC_2a34d.dir/objects.a @CMakeFiles/cmTC_2a34d.dir/objects1.rsp
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe -Wl,--whole-archive CMakeFiles/cmTC_2a34d.dir/objects.a -Wl,--no-whole-archive -o cmTC_2a34d.exe -Wl,--out-implib,libcmTC_2a34d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_2a34d.dir/linkLibs.rsp
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+        collect2.exe: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_2a34d.dir/build.make:102: cmTC_2a34d.exe] Error 1
+        make[1]: Leaving directory '/cygdrive/c/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-9riqzb'
+        make: *** [Makefile:127: cmTC_2a34d/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-g++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-bwoii9"
+      binary: "C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-bwoii9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-bwoii9'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Projects/Robotics/PROS/toolchain/usr/bin/make.exe -f Makefile cmTC_0699e/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_0699e.dir/build.make CMakeFiles/cmTC_0699e.dir/build
+        make[1]: Entering directory '/cygdrive/c/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-bwoii9'
+        Building C object CMakeFiles/cmTC_0699e.dir/CMakeCCompilerABI.c.obj
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe   -v -o CMakeFiles/cmTC_0699e.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=C:\\Projects\\Robotics\\PROS\\toolchain\\usr\\bin\\arm-none-eabi-gcc.exe
+        Target: arm-none-eabi
+        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --enable-mingw-wildcard --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0699e.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_0699e.dir/'
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1.exe -quiet -v -iprefix C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0699e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\\Users\\mayan\\AppData\\Local\\Temp\\ccogV7ql.s
+        GNU C17 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) version 13.3.1 20240614 (arm-none-eabi)
+        	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Projects/Robotics/PROS/toolchain/usr/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include"
+        ignoring nonexistent directory "C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/13.3.1/../../../../include"
+        ignoring duplicate directory "C:/Projects/Robotics/PROS/toolchain/usr/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include-fixed"
+        ignoring duplicate directory "C:/Projects/Robotics/PROS/toolchain/usr/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/include
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: d51ba7f24bad5b83998bb941572c85c4
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0699e.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_0699e.dir/'
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_0699e.dir/CMakeCCompilerABI.c.obj C:\\Users\\mayan\\AppData\\Local\\Temp\\ccogV7ql.s
+        GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 2.42.0.20240614
+        COMPILER_PATH=C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0699e.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_0699e.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_0699e.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_0699e.dir/objects.a
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-ar.exe qc CMakeFiles/cmTC_0699e.dir/objects.a @CMakeFiles/cmTC_0699e.dir/objects1.rsp
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe  -v -Wl,--whole-archive CMakeFiles/cmTC_0699e.dir/objects.a -Wl,--no-whole-archive -o cmTC_0699e.exe -Wl,--out-implib,libcmTC_0699e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Using built-in specs.
+        COLLECT_GCC=C:\\Projects\\Robotics\\PROS\\toolchain\\usr\\bin\\arm-none-eabi-gcc.exe
+        COLLECT_LTO_WRAPPER=C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper.exe
+        Target: arm-none-eabi
+        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --enable-mingw-wildcard --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 
+        COMPILER_PATH=C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0699e.exe' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'cmTC_0699e.'
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2.exe -plugin C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.dll -plugin-opt=C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\mayan\\AppData\\Local\\Temp\\cc4vzOhu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi -X -o cmTC_0699e.exe C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/crti.o C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/crtbegin.o C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/crt0.o -LC:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1 -LC:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc -LC:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib -LC:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi/lib --whole-archive CMakeFiles/cmTC_0699e.dir/objects.a --no-whole-archive --out-implib libcmTC_0699e.dll.a --major-image-version 0 --minor-image-version 0 --start-group -lgcc -lc --end-group C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/crtend.o C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/crtn.o
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+        collect2.exe: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_0699e.dir/build.make:101: cmTC_0699e.exe] Error 1
+        make[1]: Leaving directory '/cygdrive/c/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-bwoii9'
+        make: *** [Makefile:127: cmTC_0699e/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe"
+    directories:
+      source: "C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-0tausl"
+      binary: "C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-0tausl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-0tausl'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Projects/Robotics/PROS/toolchain/usr/bin/make.exe -f Makefile cmTC_a6fa5/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_a6fa5.dir/build.make CMakeFiles/cmTC_a6fa5.dir/build
+        make[1]: Entering directory '/cygdrive/c/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-0tausl'
+        Building C object CMakeFiles/cmTC_a6fa5.dir/testCCompiler.c.obj
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe    -o CMakeFiles/cmTC_a6fa5.dir/testCCompiler.c.obj -c C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-0tausl/testCCompiler.c
+        Linking C executable cmTC_a6fa5.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_a6fa5.dir/objects.a
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-ar.exe qc CMakeFiles/cmTC_a6fa5.dir/objects.a @CMakeFiles/cmTC_a6fa5.dir/objects1.rsp
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe -Wl,--whole-archive CMakeFiles/cmTC_a6fa5.dir/objects.a -Wl,--no-whole-archive -o cmTC_a6fa5.exe -Wl,--out-implib,libcmTC_a6fa5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_a6fa5.dir/linkLibs.rsp
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+        collect2.exe: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_a6fa5.dir/build.make:102: cmTC_a6fa5.exe] Error 1
+        make[1]: Leaving directory '/cygdrive/c/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-0tausl'
+        make: *** [Makefile:127: cmTC_a6fa5/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-g++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-9tdl0a"
+      binary: "C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-9tdl0a"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-9tdl0a'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Projects/Robotics/PROS/toolchain/usr/bin/make.exe -f Makefile cmTC_de003/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_de003.dir/build.make CMakeFiles/cmTC_de003.dir/build
+        make[1]: Entering directory '/cygdrive/c/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-9tdl0a'
+        Building C object CMakeFiles/cmTC_de003.dir/CMakeCCompilerABI.c.obj
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe   -v -o CMakeFiles/cmTC_de003.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=C:\\Projects\\Robotics\\PROS\\toolchain\\usr\\bin\\arm-none-eabi-gcc.exe
+        Target: arm-none-eabi
+        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --enable-mingw-wildcard --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_de003.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_de003.dir/'
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1.exe -quiet -v -iprefix C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_de003.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\\Users\\mayan\\AppData\\Local\\Temp\\ccbSO0Ni.s
+        GNU C17 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) version 13.3.1 20240614 (arm-none-eabi)
+        	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Projects/Robotics/PROS/toolchain/usr/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include"
+        ignoring nonexistent directory "C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/13.3.1/../../../../include"
+        ignoring duplicate directory "C:/Projects/Robotics/PROS/toolchain/usr/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include-fixed"
+        ignoring duplicate directory "C:/Projects/Robotics/PROS/toolchain/usr/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/include
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: d51ba7f24bad5b83998bb941572c85c4
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_de003.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_de003.dir/'
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_de003.dir/CMakeCCompilerABI.c.obj C:\\Users\\mayan\\AppData\\Local\\Temp\\ccbSO0Ni.s
+        GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 2.42.0.20240614
+        COMPILER_PATH=C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_de003.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_de003.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_de003.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_de003.dir/objects.a
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-ar.exe qc CMakeFiles/cmTC_de003.dir/objects.a @CMakeFiles/cmTC_de003.dir/objects1.rsp
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe  -v -Wl,--whole-archive CMakeFiles/cmTC_de003.dir/objects.a -Wl,--no-whole-archive -o cmTC_de003.exe -Wl,--out-implib,libcmTC_de003.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Using built-in specs.
+        COLLECT_GCC=C:\\Projects\\Robotics\\PROS\\toolchain\\usr\\bin\\arm-none-eabi-gcc.exe
+        COLLECT_LTO_WRAPPER=C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper.exe
+        Target: arm-none-eabi
+        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --enable-mingw-wildcard --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 
+        COMPILER_PATH=C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/;C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_de003.exe' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'cmTC_de003.'
+         C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2.exe -plugin C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.dll -plugin-opt=C:/Projects/Robotics/PROS/toolchain/usr/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\mayan\\AppData\\Local\\Temp\\ccNZXyFq.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=C:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi -X -o cmTC_de003.exe C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/crti.o C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/crtbegin.o C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/crt0.o -LC:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1 -LC:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc -LC:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib -LC:/Projects/Robotics/PROS/toolchain/usr/bin/../arm-none-eabi/lib --whole-archive CMakeFiles/cmTC_de003.dir/objects.a --no-whole-archive --out-implib libcmTC_de003.dll.a --major-image-version 0 --minor-image-version 0 --start-group -lgcc -lc --end-group C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/crtend.o C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/crtn.o
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+        collect2.exe: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_de003.dir/build.make:101: cmTC_de003.exe] Error 1
+        make[1]: Leaving directory '/cygdrive/c/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-9tdl0a'
+        make: *** [Makefile:127: cmTC_de003/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe"
+    directories:
+      source: "C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-3etstm"
+      binary: "C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-3etstm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-3etstm'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Projects/Robotics/PROS/toolchain/usr/bin/make.exe -f Makefile cmTC_9ca58/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_9ca58.dir/build.make CMakeFiles/cmTC_9ca58.dir/build
+        make[1]: Entering directory '/cygdrive/c/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-3etstm'
+        Building C object CMakeFiles/cmTC_9ca58.dir/testCCompiler.c.obj
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe    -o CMakeFiles/cmTC_9ca58.dir/testCCompiler.c.obj -c C:/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-3etstm/testCCompiler.c
+        Linking C executable cmTC_9ca58.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_9ca58.dir/objects.a
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-ar.exe qc CMakeFiles/cmTC_9ca58.dir/objects.a @CMakeFiles/cmTC_9ca58.dir/objects1.rsp
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/arm-none-eabi-gcc.exe -Wl,--whole-archive CMakeFiles/cmTC_9ca58.dir/objects.a -Wl,--no-whole-archive -o cmTC_9ca58.exe -Wl,--out-implib,libcmTC_9ca58.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_9ca58.dir/linkLibs.rsp
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+        C:/Projects/Robotics/PROS/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+        collect2.exe: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_9ca58.dir/build.make:102: cmTC_9ca58.exe] Error 1
+        make[1]: Leaving directory '/cygdrive/c/Projects/Robotics/PROS/templates/OkapiLib/build/CMakeFiles/CMakeScratch/TryCompile-3etstm'
+        make: *** [Makefile:127: cmTC_9ca58/fast] Error 2
+        
+      exitCode: 2
+...

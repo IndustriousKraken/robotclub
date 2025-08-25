@@ -101,11 +101,13 @@ std::int32_t Motor::isOverTemp() {
 }
 
 std::int32_t Motor::isStopped() {
-  return pros::c::motor_is_stopped(port);
+  uint32_t flags = pros::c::motor_get_flags(port);
+  return flags & pros::motor_flag_e_t::E_MOTOR_FLAGS_ZERO_VELOCITY;
 }
 
 std::int32_t Motor::getZeroPositionFlag() {
-  return pros::c::motor_get_zero_position_flag(port);
+  uint32_t flags = pros::c::motor_get_flags(port);
+  return flags & pros::motor_flag_e_t::E_MOTOR_FLAGS_ZERO_POSITION;
 }
 
 uint32_t Motor::getFaults() {
@@ -237,41 +239,43 @@ std::int32_t Motor::setVoltageLimit(const std::int32_t ilimit) {
   return pros::c::motor_set_voltage_limit(port, ilimit);
 }
 
-std::int32_t
-Motor::setPosPID(const double ikF, const double ikP, const double ikI, const double ikD) {
-  return pros::c::motor_set_pos_pid(port, pros::c::motor_convert_pid(ikF, ikP, ikI, ikD));
-}
+// std::int32_t
+// Motor::setPosPID(const double ikF, const double ikP, const double ikI, const double ikD) {
+//   return pros::c::motor_set_pos_pid(port, pros::c::motor_convert_pid(ikF, ikP, ikI, ikD));
+// }
 
-std::int32_t Motor::setPosPIDFull(const double ikF,
-                                  const double ikP,
-                                  const double ikI,
-                                  const double ikD,
-                                  const double ifilter,
-                                  const double ilimit,
-                                  const double ithreshold,
-                                  const double iloopSpeed) {
-  return pros::c::motor_set_pos_pid_full(
-    port,
-    pros::c::motor_convert_pid_full(ikF, ikP, ikI, ikD, ifilter, ilimit, ithreshold, iloopSpeed));
-}
+// std::int32_t Motor::setPosPIDFull(const double ikF,
+//                                   const double ikP,
+//                                   const double ikI,
+//                                   const double ikD,
+//                                   const double ifilter,
+//                                   const double ilimit,
+//                                   const double ithreshold,
+//                                   const double iloopSpeed) {
+//   return pros::c::motor_set_pos_pid_full(
+//     port,
+//     pros::c::motor_convert_pid_full(ikF, ikP, ikI, ikD, ifilter, ilimit, ithreshold,
+//     iloopSpeed));
+// }
 
-std::int32_t
-Motor::setVelPID(const double ikF, const double ikP, const double ikI, const double ikD) {
-  return pros::c::motor_set_vel_pid(port, pros::c::motor_convert_pid(ikF, ikP, ikI, ikD));
-}
+// std::int32_t
+// Motor::setVelPID(const double ikF, const double ikP, const double ikI, const double ikD) {
+//   return pros::c::motor_set_vel_pid(port, pros::c::motor_convert_pid(ikF, ikP, ikI, ikD));
+// }
 
-std::int32_t Motor::setVelPIDFull(const double ikF,
-                                  const double ikP,
-                                  const double ikI,
-                                  const double ikD,
-                                  const double ifilter,
-                                  const double ilimit,
-                                  const double ithreshold,
-                                  const double iloopSpeed) {
-  return pros::c::motor_set_vel_pid_full(
-    port,
-    pros::c::motor_convert_pid_full(ikF, ikP, ikI, ikD, ifilter, ilimit, ithreshold, iloopSpeed));
-}
+// std::int32_t Motor::setVelPIDFull(const double ikF,
+//                                   const double ikP,
+//                                   const double ikI,
+//                                   const double ikD,
+//                                   const double ifilter,
+//                                   const double ilimit,
+//                                   const double ithreshold,
+//                                   const double iloopSpeed) {
+//   return pros::c::motor_set_vel_pid_full(
+//     port,
+//     pros::c::motor_convert_pid_full(ikF, ikP, ikI, ikD, ifilter, ilimit, ithreshold,
+//     iloopSpeed));
+// }
 
 std::shared_ptr<ContinuousRotarySensor> Motor::getEncoder() {
   return std::make_shared<IntegratedEncoder>(port, isReversed());
